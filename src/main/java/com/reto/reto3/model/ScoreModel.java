@@ -17,7 +17,7 @@ public class ScoreModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_score")
     private int idScore;
-    @Column(name = "value")
+    @Column(name = "vvalue")
     private Float value;
 
     @OneToOne(cascade = CascadeType.MERGE)

@@ -1,0 +1,4 @@
+2023-04-21 18:43:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CARS" no encontrada
+Table "CARS" not found; SQL statement:
+select * from cars [42102-214]
